@@ -12,6 +12,7 @@ const RQSuperheroesPage = () => {
     fetchSuperHeros
   );
 
+  // hello
   if (isLoading) {
     return <h2>Loading..</h2>;
   }
