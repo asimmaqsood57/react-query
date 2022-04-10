@@ -2,9 +2,13 @@ import React from "react";
 import { useQuery } from "react-query";
 import axios from "axios";
 
+// this is a comment and it is file app.js and javascript file
+
 const fetchSuperHeros = () => {
   return axios.get("http://localhost:4000/superheroes");
 };
+
+// this is the newBranch1 code
 
 const RQSuperheroesPage = () => {
   const { isLoading, data, isError, error } = useQuery(
