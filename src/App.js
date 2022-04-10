@@ -7,7 +7,7 @@ import RQSuperheroesPage from "./components/RQSuperheroesPage";
 import "./App.css";
 
 const queryClient = new QueryClient();
-
+// this is comment
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
